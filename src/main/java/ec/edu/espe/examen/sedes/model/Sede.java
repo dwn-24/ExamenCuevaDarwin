@@ -28,7 +28,7 @@ public class Sede {
     private String nombre;
     @Column(name = "DIRECCION", length = 200, nullable = false)
     private String direccion;
-    
+    @NotNull
     private Boolean principal;
     @Temporal(TemporalType.DATE)
     @Column(name = "FECHA_CREACION", nullable = false)
